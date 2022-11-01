@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+	int a=5;
+	/* Áõôü åßíáé Ýíá ó÷üëéï*/
+	//êáé áõôü åßíáé åíá ó÷üëéï (comment)
+	printf("Hello, Nikos Zotos\n");
+	return 0;
+}
