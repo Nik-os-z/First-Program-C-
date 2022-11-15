@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+	int a , b , c;
+	printf("enter three numbers\n");
+	scanf("%d %d %d",&a,&b,&c);
+	
+	if (a>=b && a>=c){
+	system("cls");
+	printf("%d is the bigest number", a);
+	}
+	if (b>=a && b>=c){
+	system("cls");
+	printf("%d is the bigest number", b);
+	}
+	if (c>=a && c>=b){
+	system("cls");
+	printf("%d is the bigest number", c);
+	}
+	if (a==b && a==c){
+	system("cls");
+	printf("All numbers are equal: %d", a);
+	}
+}
