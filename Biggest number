@@ -12,4 +12,5 @@ int main(){
 	if(c>a && c>b){
 		printf("%d is the bigest number",c);
 	}
+return 0;
 }
