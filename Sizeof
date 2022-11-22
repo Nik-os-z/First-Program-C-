@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+	int a;
+	float b;
+	char c[20];
+	printf("Please enter a number, a decimal and a word\n");
+	scanf("%d%f%c",&a,&b,&c);
+	printf("\nThe number takes %d bytes in memory",sizeof(a));
+	printf("\nThe second number takes %d bytes in memory",sizeof(b));
+	printf("\nThe word takes %d bytes in memory",sizeof(c));
+return 0;
+}
