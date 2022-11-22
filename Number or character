@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+	char a;
+	printf("Insert Characterr\n");
+	scanf("%c",&a);
+		if (a>'a' && a<'z'){
+			printf("%c is a character\n",a);
+		}
+		else{
+			printf("%c is a number\n",a);
+		}		
+return 0;
+}
