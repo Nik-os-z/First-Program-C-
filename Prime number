@@ -1,0 +1,19 @@
+int main(){
+	int a,b;
+	printf("Insert two numbers\n");
+	scanf("%d%d",&a,&b);
+	if(a%2==0){
+		printf("The first number is a prime number\n");
+	}
+		else{
+			printf("The first number is a composite number\n");
+		}
+	
+	if(b%2==0){
+		printf("The second number is a prime number\n");
+		}
+		else{
+			printf("The second number is a composite number\n");
+		}
+		return 0;
+}
