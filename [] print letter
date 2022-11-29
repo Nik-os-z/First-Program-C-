@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+	int i;
+	int letter[]={'a','b','c','d','e'};
+	for(i=0;i<5;++i){
+		printf("%c ",letter[i]);
+	}
+return 0;
+}
