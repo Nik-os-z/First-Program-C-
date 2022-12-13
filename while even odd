@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+	int i=0;
+	int numbers[]={2,3,7,8,12};
+	while (i<=5) {
+		if (numbers[i]%2==0) {
+			printf ("%d even", numbers[i]);
+		}
+		else{
+			printf("%d odd", numbers[i]);
+		}
+		++i;
+	}
+return 0;
+}
